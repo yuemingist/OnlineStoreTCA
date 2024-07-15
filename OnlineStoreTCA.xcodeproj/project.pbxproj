@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9735A5D72C4561E100A41528 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 9735A5D62C4561E100A41528 /* CombineSchedulers */; };
+		9735A5DA2C4563D800A41528 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 9735A5D92C4563D800A41528 /* CombineSchedulers */; };
+		97DDD4EF2C455903002A3203 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4EE2C455903002A3203 /* SwiftUINavigation */; };
+		97DDD4F12C455903002A3203 /* _SwiftUINavigationState in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4F02C455903002A3203 /* _SwiftUINavigationState */; };
+		97DDD4F42C455973002A3203 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4F32C455973002A3203 /* Collections */; };
+		97DDD4F62C455973002A3203 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4F52C455973002A3203 /* DequeModule */; };
+		97DDD4F82C455973002A3203 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4F72C455973002A3203 /* OrderedCollections */; };
+		97DDD4FC2C4559D0002A3203 /* Benchmark in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4FB2C4559D0002A3203 /* Benchmark */; };
+		97DDD4FF2C455A2A002A3203 /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD4FE2C455A2A002A3203 /* CasePaths */; };
+		97DDD5022C455A60002A3203 /* CustomDump in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD5012C455A60002A3203 /* CustomDump */; };
+		97DDD5052C455A90002A3203 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD5042C455A90002A3203 /* Dependencies */; };
+		97DDD5082C455ABF002A3203 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD5072C455ABF002A3203 /* IdentifiedCollections */; };
+		97DDD50B2C455AEC002A3203 /* XCTestDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 97DDD50A2C455AEC002A3203 /* XCTestDynamicOverlay */; };
 		B50F8EFF28B18F020034B039 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F8EFE28B18F020034B039 /* ProductCell.swift */; };
 		B50F8F0128B19B880034B039 /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F8F0028B19B880034B039 /* AddToCartButton.swift */; };
 		B50F8F0428B19CD30034B039 /* PlusMinusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F8F0328B19CD30034B039 /* PlusMinusButton.swift */; };
@@ -95,6 +108,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DDD4EF2C455903002A3203 /* SwiftUINavigation in Frameworks */,
+				97DDD4FC2C4559D0002A3203 /* Benchmark in Frameworks */,
+				97DDD4F12C455903002A3203 /* _SwiftUINavigationState in Frameworks */,
+				97DDD5082C455ABF002A3203 /* IdentifiedCollections in Frameworks */,
+				97DDD4F82C455973002A3203 /* OrderedCollections in Frameworks */,
+				97DDD4F62C455973002A3203 /* DequeModule in Frameworks */,
+				9735A5D72C4561E100A41528 /* CombineSchedulers in Frameworks */,
+				97DDD5052C455A90002A3203 /* Dependencies in Frameworks */,
+				9735A5DA2C4563D800A41528 /* CombineSchedulers in Frameworks */,
+				97DDD4FF2C455A2A002A3203 /* CasePaths in Frameworks */,
+				97DDD4F42C455973002A3203 /* Collections in Frameworks */,
+				97DDD5022C455A60002A3203 /* CustomDump in Frameworks */,
+				97DDD50B2C455AEC002A3203 /* XCTestDynamicOverlay in Frameworks */,
 				B556E16B28B5CEA900CB51F4 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +337,19 @@
 			name = OnlineStoreTCA;
 			packageProductDependencies = (
 				B556E16A28B5CEA900CB51F4 /* ComposableArchitecture */,
+				97DDD4EE2C455903002A3203 /* SwiftUINavigation */,
+				97DDD4F02C455903002A3203 /* _SwiftUINavigationState */,
+				97DDD4F32C455973002A3203 /* Collections */,
+				97DDD4F52C455973002A3203 /* DequeModule */,
+				97DDD4F72C455973002A3203 /* OrderedCollections */,
+				97DDD4FB2C4559D0002A3203 /* Benchmark */,
+				97DDD4FE2C455A2A002A3203 /* CasePaths */,
+				97DDD5012C455A60002A3203 /* CustomDump */,
+				97DDD5042C455A90002A3203 /* Dependencies */,
+				97DDD5072C455ABF002A3203 /* IdentifiedCollections */,
+				97DDD50A2C455AEC002A3203 /* XCTestDynamicOverlay */,
+				9735A5D62C4561E100A41528 /* CombineSchedulers */,
+				9735A5D92C4563D800A41528 /* CombineSchedulers */,
 			);
 			productName = OnlineStoreTCA;
 			productReference = B5A5CFB1289C257900AC3E5E /* OnlineStoreTCA.app */;
@@ -346,6 +385,16 @@
 			mainGroup = B5A5CFA8289C257900AC3E5E;
 			packageReferences = (
 				B556E16928B5CEA900CB51F4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				97DDD4ED2C455903002A3203 /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+				97DDD4F22C455973002A3203 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				97DDD4F92C45599F002A3203 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */,
+				97DDD4FA2C4559D0002A3203 /* XCRemoteSwiftPackageReference "swift-benchmark" */,
+				97DDD4FD2C455A2A002A3203 /* XCRemoteSwiftPackageReference "swift-case-paths" */,
+				97DDD5002C455A60002A3203 /* XCRemoteSwiftPackageReference "swift-custom-dump" */,
+				97DDD5032C455A90002A3203 /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+				97DDD5062C455ABF002A3203 /* XCRemoteSwiftPackageReference "swift-identified-collections" */,
+				97DDD5092C455AEC002A3203 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */,
+				9735A5D82C4563D800A41528 /* XCRemoteSwiftPackageReference "combine-schedulers" */,
 			);
 			productRefGroup = B5A5CFB2289C257900AC3E5E /* Products */;
 			projectDirPath = "";
@@ -591,7 +640,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlineStoreTCA/Preview Content\"";
-				DEVELOPMENT_TEAM = LHJA6J73E9;
+				DEVELOPMENT_TEAM = F2NXUCKJL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -604,7 +653,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftandtips.OnlineStoreTCA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuegr.tca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -620,7 +669,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlineStoreTCA/Preview Content\"";
-				DEVELOPMENT_TEAM = LHJA6J73E9;
+				DEVELOPMENT_TEAM = F2NXUCKJL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -633,7 +682,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftandtips.OnlineStoreTCA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuegr.tca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -674,6 +723,86 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9735A5D82C4563D800A41528 /* XCRemoteSwiftPackageReference "combine-schedulers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/combine-schedulers";
+			requirement = {
+				kind = exactVersion;
+				version = 0.10.0;
+			};
+		};
+		97DDD4ED2C455903002A3203 /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				kind = exactVersion;
+				version = 0.7.2;
+			};
+		};
+		97DDD4F22C455973002A3203 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
+		97DDD4F92C45599F002A3203 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-docc-plugin";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		97DDD4FA2C4559D0002A3203 /* XCRemoteSwiftPackageReference "swift-benchmark" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/swift-benchmark";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.0;
+			};
+		};
+		97DDD4FD2C455A2A002A3203 /* XCRemoteSwiftPackageReference "swift-case-paths" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-case-paths";
+			requirement = {
+				kind = exactVersion;
+				version = 0.14.1;
+			};
+		};
+		97DDD5002C455A60002A3203 /* XCRemoteSwiftPackageReference "swift-custom-dump" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-custom-dump";
+			requirement = {
+				kind = exactVersion;
+				version = 0.10.3;
+			};
+		};
+		97DDD5032C455A90002A3203 /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies";
+			requirement = {
+				kind = exactVersion;
+				version = 0.5.1;
+			};
+		};
+		97DDD5062C455ABF002A3203 /* XCRemoteSwiftPackageReference "swift-identified-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-identified-collections";
+			requirement = {
+				kind = exactVersion;
+				version = 0.7.0;
+			};
+		};
+		97DDD5092C455AEC002A3203 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/xctest-dynamic-overlay";
+			requirement = {
+				kind = exactVersion;
+				version = 0.8.4;
+			};
+		};
 		B556E16928B5CEA900CB51F4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
@@ -685,6 +814,70 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9735A5D62C4561E100A41528 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CombineSchedulers;
+		};
+		9735A5D92C4563D800A41528 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9735A5D82C4563D800A41528 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+		97DDD4EE2C455903002A3203 /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4ED2C455903002A3203 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+		97DDD4F02C455903002A3203 /* _SwiftUINavigationState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4ED2C455903002A3203 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = _SwiftUINavigationState;
+		};
+		97DDD4F32C455973002A3203 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4F22C455973002A3203 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		97DDD4F52C455973002A3203 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4F22C455973002A3203 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		97DDD4F72C455973002A3203 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4F22C455973002A3203 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		97DDD4FB2C4559D0002A3203 /* Benchmark */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4FA2C4559D0002A3203 /* XCRemoteSwiftPackageReference "swift-benchmark" */;
+			productName = Benchmark;
+		};
+		97DDD4FE2C455A2A002A3203 /* CasePaths */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD4FD2C455A2A002A3203 /* XCRemoteSwiftPackageReference "swift-case-paths" */;
+			productName = CasePaths;
+		};
+		97DDD5012C455A60002A3203 /* CustomDump */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD5002C455A60002A3203 /* XCRemoteSwiftPackageReference "swift-custom-dump" */;
+			productName = CustomDump;
+		};
+		97DDD5042C455A90002A3203 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD5032C455A90002A3203 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		97DDD5072C455ABF002A3203 /* IdentifiedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD5062C455ABF002A3203 /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
+			productName = IdentifiedCollections;
+		};
+		97DDD50A2C455AEC002A3203 /* XCTestDynamicOverlay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97DDD5092C455AEC002A3203 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
+			productName = XCTestDynamicOverlay;
+		};
 		B556E16A28B5CEA900CB51F4 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B556E16928B5CEA900CB51F4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
